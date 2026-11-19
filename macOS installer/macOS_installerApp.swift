@@ -10,6 +10,8 @@ struct macOS_installerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .hiddenTitlebarWithInsetTrafficLights()
         }
+        .windowStyle(.hiddenTitleBar)
     }
 }
